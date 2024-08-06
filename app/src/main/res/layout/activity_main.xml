@@ -46,10 +46,10 @@
                 android:textColor="#fff"
                 android:background="#960AAD"/>
             <EditText
-                android:layout_width="wrap_content"
+                android:layout_width="300dp"
                 android:layout_height="wrap_content"
                 android:id="@+id/User"
-                android:hint="Escribe tu usuario"
+                android:hint="Usuario"
                 android:textStyle="normal"
                 android:textColor="#000"
                 android:textColorHint="#7C373131"
@@ -71,10 +71,10 @@
                 android:textColor="#fff"
                 android:background="#960AAD"/>
             <EditText
-                android:layout_width="200dp"
+                android:layout_width="300dp"
                 android:layout_height="wrap_content"
                 android:id="@+id/Pass"
-                android:hint="Escribe tu contraseña"
+                android:hint="Contraseña"
                 android:textStyle="normal"
                 android:inputType="textPassword"
                 android:textColorHint="#7C373131"

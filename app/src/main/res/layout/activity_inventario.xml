@@ -31,6 +31,7 @@
             <Button
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:id="@+id/NCat"
                 android:layout_marginRight="200dp"
                 android:text="Nueva categoría"
                 android:textSize="30dp"
@@ -38,6 +39,7 @@
             <Button
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:id="@+id/OPcProd"
                 android:text="Opciones producto"
                 android:textSize="30dp"
                 android:backgroundTint="#960AAD"/>
@@ -54,16 +56,20 @@
             <Spinner
                 android:layout_width="match_parent"
                 android:layout_height="50dp"
+                android:id="@+id/SpinnerP"
                 android:layout_marginTop="30dp"
                 android:textAlignment="center"/>
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="400dp"
+                android:id="@+id/Prod"
+                android:textSize="20dp"
                 android:layout_marginLeft="20dp"
                 android:layout_marginRight="20dp"/>
             <Button
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:id="@+id/Venta"
                 android:layout_marginTop="20dp"
                 android:text="Venta"
                 android:textSize="30dp"

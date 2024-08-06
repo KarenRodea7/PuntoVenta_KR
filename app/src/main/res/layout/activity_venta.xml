@@ -21,12 +21,14 @@
             <Spinner
                 android:layout_width="700dp"
                 android:layout_height="50dp"
+                android:id="@+id/SpinnerV"
                 android:layout_marginTop="30dp"
                 android:layout_marginRight="170dp"
                 android:textAlignment="center"/>
             <Button
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:id="@+id/Inventario"
                 android:layout_marginTop="30dp"
                 android:text="Inventario"
                 android:textSize="30dp"
@@ -37,6 +39,7 @@
         <ListView
             android:layout_width="wrap_content"
             android:layout_height="250dp"
+            android:id="@+id/ListProd"
             android:layout_marginLeft="20dp"
             android:layout_marginRight="20dp"/>
         <View
@@ -51,6 +54,7 @@
         <ListView
             android:layout_width="match_parent"
             android:layout_height="250dp"
+            android:id="@+id/ListVen"
             android:layout_marginLeft="20dp"
             android:layout_marginRight="20dp"/>
         <LinearLayout
@@ -68,8 +72,10 @@
             <Button
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:id="@+id/Venta"
                 android:text="Vender"
-                android:textSize="30dp"/>
+                android:textSize="30dp"
+                android:backgroundTint="#960AAD"/>
         </LinearLayout>
     </LinearLayout>
 
